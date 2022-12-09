@@ -1,0 +1,165 @@
+/*
+*h1
+*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+  font-size: 22px;
+  color: #666a6c;
+}
+/*
+*styles
+*/
+.info {
+  background: White;
+  text-align: center;
+  padding: 25px;
+}
+header .logo {
+  border-right: 1px solid #dce0e0;
+}
+.hero img {
+  width: 100%;
+}
+.info .owner-details img {
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+.info h2.relationship,
+.info h2.name {
+  color: #909597;
+  margin-bottom: 3px;
+}
+
+.name {
+  font-weight: bold;
+}
+.info p.location {
+  margin-bottom: 20px;
+}
+.info .icon {
+  float: left;
+  width: 33.3%;
+  margin: 15px auto;
+}
+.info .booking h2 {
+  font-size: 22px;
+  font-weight: 600px;
+}
+.info .time,
+.info .price {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: 800px;
+}
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+.about h3 {
+  text-align: center;
+  margin: 35px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.about p {
+  font-weight: 800px;
+  margin: 10px;
+}
+.contact {
+  text-align: center;
+  margin: 30px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: #dce0e0 solid 1px;
+  padding-bottom: 25px;
+}
+.care {
+  border-bottom: #dce0e0 solid 1px;
+  padding: 20px;
+}
+.care h3 {
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+.care p {
+  margin-left: 15px;
+  padding-bottom: 5px;
+}
+.games {
+  border-bottom: #dce0e0 solid 1px;
+  padding-bottom: 20px;
+  width: auto;
+}
+.games h3 {
+  margin: 15px 0px 15px 15px;
+}
+.games img {
+  display: table;
+  width: 25px;
+  margin: 10px;
+}
+
+.games p {
+  float: inherit;
+}
+.photos {
+  border: 25%;
+  margin: 10px;
+}
+@media only screen and (min-width: 1060px) {
+  .container {
+    width: 1040px;
+    margin: 0 auto;
+  }
+
+  .column {
+    float: left;
+  }
+  .button {
+    width: 275px;
+    margin: auto;
+  }
+  .info h1 {
+    margin-bottom: 11px;
+  }
+
+  .info h2 {
+    margin-bottom: 3px;
+  }
+  .info .profile {
+    width: 660px;
+    border-right: 1px solid #dce0e0;
+  }
+  .info .booking {
+    width: 380px;
+  }
+  .info .owner-details {
+    width: 20%;
+  }
+  .info .pet-details {
+    width: 80%;
+    text-align: left;
+  }
+  .info .pet-details .icon {
+    width: inherit;
+    margin-right: 40px;
+  }
+
+  .info .pet-details .icon img {
+    display: block;
+    margin: 3px auto 3px;
+  }
+}
